@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<title>Document</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm fixed-top bg-white">
+        <div class="container my-2">
+            <a href="/" class="navbar-brand text-dark font-weight-bold">
+                HARSH
+                </a>
+                <button class="btn btn-outline-info ml-auto">
+                    Contact me
+                </button>
+                <button class="navbar-toggler" data-toggle="collapse"
+                data-target="#collapseNav">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="collapseNav">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link text-dark 
+                        h6 mx-3 my-auto">Blogs</a>
+                    </div>
+                </div>
+        </div>
+    </nav>
+
+    <!-- TITLE SECTION -->
+    <div class="container">
+        <div class="row text-center align-items-center my-5 py-5">
+            <div class="col-12 col-md-6">
+                <img class="image-fluid rounded-circle w-75 h-75" src="images/IMG20190820152433.jpg">
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="font-weight-light" style="font-size: 50px;">
+                Hi, I am <span class="text-info">Harsh</span>
+                </div>
+                <h4 class="font-weight-light">I am a freelancer from India</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- TECHNOLOGY STACK -->
+    <div class="bg-light w-100"><div class="container text-center py-5">
+        <h1 class="font-weight-light"><span class="text-info">Technology</span> Stack</h1>
+        <div class="lead py-3">I design, develop and deliver with these weapons</div>
+    </div>
+    <div class="d-flex justify-content-around py-3 ">
+        <div>
+            <img class=""
+            src="https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png"
+            alt="html"
+            style="width: 75px; height: 75px;">
+            <div class="text-center">
+                <span class="text-info">★</span>
+                <span class="text-info">★</span>
+                <span class="text-info">★</span>
+            </div>
+        </div> 
+
+        <div>
+            <img class=""
+            src="data:image/png;base64,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"
+            alt="html"
+            style="width: 75px; height: 75px;">
+            <div class="text-center">
+                <span class="text-info">★</span>
+                <span class="text-info">★</span>
+                <span class="text-info">★</span>
+            </div>
+        </div> 
+
+        <div>
+            <img class=""
+            src="https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png"
+            alt="html"
+            style="width: 75px; height: 75px;">
+            <div class="text-center">
+                <span class="text-info">★</span>
+                <span class="text-info">★</span>
+                <span class="">★</span>
+            </div>
+        </div> 
+  
+    </div>
+
+    <div class="d-flex justify-content-around py-3">
+        <div>
+            <img class=""
+            src="https://s28309.pcdn.co/wp-content/themes/321-web-marketing/assets/images/bootstrap-logo-256.png"
+            alt="html"
+            style="width: 75px; height: 75px;">
+            <div class="text-center">
+                <span class="text-info">★</span>
+                <span class="text-info">★</span>
+                <span class="text-info">★</span>
+            </div>
+        </div> 
+
+        <div>
+            <img class=""
+            src="https://basicweb.ru/images/jquery2.png"
+            alt="html"
+            style="width: 75px; height: 75px;">
+            <div class="text-center">
+                <span class="text-info">★</span>
+                <span class="text-info">★</span>
+                <span class="">★</span>
+            </div>
+        </div> 
+
+        <div>
+            <img class=""
+            src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/256/square_256/nodejslogo.png"
+            alt="html"
+            style="width: 75px; height: 75px;">
+            <div class="text-center">
+                <span class="text-info">★</span>
+                <span class="">★</span>
+                <span class="">★</span>
+            </div>
+        </div> 
+
+
+        
+    
+       
+    </div>
+</div>
+    
+        <!-- PROJECT SECTION -->
+        <div class="container text-center my-5">
+            <h1 class="font-weight-light"><span class="text-info">My</span> Projects</h1>
+            <div class="lead py-3">I build products, just like this website</div>
+            <div class="row my-5 pt-3">
+                <div class="col-12 col-md-4 my-2">
+                    <div class="card shadow h-100">
+                        <img src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Project 1</h5>
+                          <p>this project is about..</p>
+                          <a href="#" class="stretched-link"></a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-4 my-2">
+                    <div class="card shadow h-100">
+                        <img src="https://images.pexels.com/photos/1037996/pexels-photo-1037996.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Project 1</h5>
+                          <p>this project is about..</p>
+                          <a href="#" class="stretched-link"></a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-4 my-2">
+                    <div class="card shadow h-100">
+                        <img src="https://images.pexels.com/photos/3280211/pexels-photo-3280211.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Project 1</h5>
+                          <p>this project is about..</p>
+                          <a href="#" class="stretched-link"></a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="my-5">
+                <a href="#" class="text-dark text-right">
+                    <h5>See my projects
+                        <i class="fa fa-arrow-right align-middle"></i>
+                    </h5>
+                </a>
+            </div>
+        </div>
+
+        <!--FOOTER SECTION-->
+    <footer>
+        <div class="container-fluid text-center" style="background-color: black;">
+            <div class="py-5">
+                
+                    <h2 class="text-light">Intrested in working with me?</h2>
+                    <button class="btn btn-outline-light bt-lg">Let's Talk!</button>
+                
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 py-3">
+                    <h5 class="text-info pb-3">More Links</h5>
+                    <a href="#" class="text-light d-block">Blogs</a>
+                    <a href="#" class="text-light d-block">Home</a>
+                    <a href="#" class="text-light d-block">Contact me</a>
+                    <a href="#" class="text-light d-block">
+                        Write a recommendation <i class="fa fa-heart text-light">
+
+                        </i>
+                    </a>
+
+                </div>
+                <div class="col-12 col-md-4 text-light text-justify py-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
+                     ex hic nam libero. Accusamus necessitatibus aut quo adipisci
+                      minima inventore labore ea temporibus facere. Explicabo, minima
+                       aperiam? Adipisci, quod quis!
+                </div>
+                <div class="col-12 col-md-4 py-3">
+                    <h5 class="text-info pb-3">Social</h5>
+                    <a href="#"><i class="fa fa-linkedin fa-lg text-light d-block py-1"></i></a>
+                    <a href="#"><i class="fa fa-github fa-lg text-light d-block py-1"></i></a>
+                    <a href="#"><i class="fa fa-envelope fa-lg text-light d-block py-1"></i></a>
+
+                </div>
+
+
+            </div>
+                <div class="text-muted py-3">
+                    <p>I do not have copy rights!</p>
+                </div>
+
+            
+        </div>
+    </footer>
+
+   <!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> 
+</body>
+</html>
